@@ -1,0 +1,19 @@
+<!--<div>
+    <button [class.disabled] = "button_disabled" class="btn btn-danger"(click) = "text_color = 'text-danger'">Color Rojo</button>
+    <button [class.disabled] = "button_disabled" class="btn btn-success mx-2"(click) = "text_color = 'text-success'">Color Verde</button>
+    <button [class.disabled] = "button_disabled" class="btn btn-primary"(click) = "text_color = 'text-primary'">Color Azul</button>
+
+    <p [class] = "text_color">Texto que cambia de color</p>
+
+    <button class="btn-secundary" (click) = "button_disabled = !button_disabled">Activar/Desactivar</button>
+
+</div>-->
+
+<div>
+    <button class="btn btn-success" (click) = "src = 'https://images.pexels.com/photos/28544852/pexels-photo-28544852/free-photo-of-refinado.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load'">imagen 1</button>
+    <button class="btn btn-danger" (click) = "src = 'https://images.pexels.com/photos/30800342/pexels-photo-30800342.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load'">imagen 2</button>
+
+    
+</div>
+
+<img [src] = "src" alt="">
