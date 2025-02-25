@@ -4,7 +4,8 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "chmod +x node_modules/.bin/ng && ng build --output-path=dist",
+    "prebuild": "npm install -g @angular/cli",  
+	"build": "ng build --output-path=dist"
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "serve:ssr:curso_angular": "node dist/curso_angular/server/server.mjs"
