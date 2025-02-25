@@ -4,7 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "chmod +x node_modules/.bin/ng && ng build --output-path=dist",
+    "build": "ng build --output-path=dist",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "serve:ssr:curso_angular": "node dist/curso_angular/server/server.mjs"
@@ -42,6 +42,6 @@
     "typescript": "~5.7.2"
   },
   "engines": {
-  "node": "22.x"
-}
+    "node": "18.x"
+  }
 }
