@@ -1,13 +1,4 @@
 {
-  "builds": [
-    {
-      "src": "angular.json",
-      "use": "@vercel/static-build",
-      "config": {
-        "distDir": "dist/curso-angular"
-      }
-    }
-  ],
   "routes": [
     {
       "src": "/(.*)",
@@ -18,5 +9,6 @@
     "env": {
       "NODE_VERSION": "18.x"
     }
-  }
+  },
+  "outputDirectory": "dist/curso-angular"
 }
